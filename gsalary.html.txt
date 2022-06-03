@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TODO supply a title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.tocenter{ display:flex;
+align-items: center; justify-content: center;
+}
+</style>
+</head>
+<body>
+<div class="tocenter">
+<form	name="myForm"	style="border:	5px	solid	#000000;padding	:3%;" action="http://localhost:8080/IP_LAB_EXERCISES/Ex_1_Gross_Servlet">
+<h1>EMPLOYEE DETAILS FORM</h1><br>
+<pre>
+Name	:<input type="text" name="name">
+
+Employee id:<input type="text" name="empid"> Basicpay :<input type="text" name="basicpay"> HRA :<input type="text" name="hra">
+</pre>
+<br>
+<input type="submit" value="submit">
+</form>
+</div>
+</body>
+</html> 
